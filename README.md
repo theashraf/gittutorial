@@ -18,6 +18,10 @@ git add .
 git commit -m "Commiting Feature #2"
 #pushing the branch to the remote repo
 git push -u origin featurename
+#merging to master
+git merge --squash featurename
+git add .
+git commit
 ```
 
 ### steps to work on a hotfix
